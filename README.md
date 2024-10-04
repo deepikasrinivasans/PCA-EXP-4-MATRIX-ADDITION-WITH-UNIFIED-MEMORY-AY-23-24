@@ -508,11 +508,9 @@ int main(int argc, char **argv)
 
     return (0);
 }
-
-
 ```
 ## OUTPUT:
 ![pcm1](https://github.com/user-attachments/assets/3dbf5f9d-5598-462e-abfc-baba2c3abe28)
 ![PCM2](https://github.com/user-attachments/assets/5a7706f7-fb97-4250-bb06-2e2b7eaeb160)
 ## RESULT:
-Thus the program has been executed by using unified memory. It is observed that removing memset function has given less/more time.
+Thus the program has been executed by using unified memory. It is observed that removing memset function has given more time by a difference of 0.027083 sec.
